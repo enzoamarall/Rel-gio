@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0; /* espaçmento interno*/
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(pink, cyan);
+    height: 100vh; /* altura 100%*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#relogio{
+    display: flex;
+    gap: 30px; /* Afastar os espaços*/
+}
+#relogio div{
+    padding: 80px; /* Afastamento interno*/
+    border-radius: 150px;  /*Bordas*/
+    background: rgb(144, 218, 166);
+    color: rgb(90, 23, 23);
+}
+#relogio div span{
+    font-size: 70px;
+    font-family: principal;
+}
+
+@font-face {
+    font-family: principal;
+    src: url('/Images/DS-DIGIT.TTF');
+}
+
